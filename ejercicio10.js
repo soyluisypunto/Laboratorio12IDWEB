@@ -1,5 +1,5 @@
 let texto_1 = "hola";
-   const mayusculas = texto => texto.toUppercase();
+   const mayusculas = texto => texto.toUpperCase();
    const signo = texto => texto + "!";
 const componerTransformacion = (funcion1, funcion2) => texto => funcion2(funcion1(texto));
 const transformar = componerTransformacion(mayusculas, signo);
